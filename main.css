@@ -1,0 +1,14 @@
+body{
+  maring-left:5%;
+  margin-right:5%;
+  background-color:#A3FFA3;
+}
+
+.gridster ul li{
+  border: 1px solid black;
+  background-color:#00CC00;
+}
+
+.gridster ul{
+  list-style-type: none;
+}

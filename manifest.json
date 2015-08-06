@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Daily Bible Page",
+  "description": "This extension shows a Google Image search result for the current page",
+  "icons":{
+    "128":"icon.png"
+  },
+  "version": "1.1",
+
+  "chrome_url_overrides" : {
+    "newtab": "main.html"
+  }
+
+}
