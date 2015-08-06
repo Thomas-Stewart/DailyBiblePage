@@ -1,7 +1,20 @@
 body{
-  maring-left:5%;
+  margin:0;
+}
+
+#content{
+  padding:0;
+  margin-left:5%;
   margin-right:5%;
+  min-height: 2000px;
   background-color:#A3FFA3;
+}
+
+#header{
+  height: 90px;
+  width:auto;
+  background-color: #33CC33;
+  text-align: center;
 }
 
 .gridster ul li{
