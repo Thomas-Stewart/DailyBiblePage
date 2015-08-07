@@ -32,5 +32,10 @@ $(function(){ //DOM Ready
 
     document.getElementById('verseofday').src = 'https://biblia.com/verseoftheday/image/' + todayDate + '?width=700';
 
+    chrome.storage.local.get('layout', function (result) {
+        alert(result['layout']);
+        console.log(result);
+    });
+
 
 });
