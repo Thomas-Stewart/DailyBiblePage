@@ -1,1 +1,1 @@
-getFeed("http://feeds.feedburner.com/FaithlifeBlog", "300", "800");
+getBlog("http://feeds.feedburner.com/FaithlifeBlog");//, 300, 800);
