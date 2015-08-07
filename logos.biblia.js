@@ -1,5 +1,5 @@
 (function(win, doc) {
-	var pluginRootUrl = '//biblia.com/api/plugins/',
+	var pluginRootUrl = 'http://biblia.com/api/plugins/',
 		parametersToIgnoreGlobally = ['resource', 'id'],
 		pluginInfos = {
 			'verseoftheday': { path: 'verseoftheday/{0}' },
@@ -124,6 +124,7 @@
 			}
 
 			new Image().src = '//biblia.com/api/plugins/report?' + queryParams.join('&');
+
 		}
 	};
 })(window, document);

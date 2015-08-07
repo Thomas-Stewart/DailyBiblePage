@@ -7,13 +7,12 @@ body{
   margin-left:5%;
   margin-right:5%;
   min-height: 2000px;
-  background-color:#A3FFA3;
+  background-color:#B57651;
 }
 
 #header{
-  height: 90px;
-  width:auto;
-  background-color: #33CC33;
+  height: auto;
+  width:100%;
   text-align: center;
 }
 
@@ -24,6 +23,6 @@ body{
 
 .gridster ul li{
   border: 1px solid black;
-  background-color:#00CC00;
+  background-color:#773716;
   text-align: center;
 }
