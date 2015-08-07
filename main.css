@@ -2,12 +2,12 @@ body{
   margin:0;
 }
 
-#content{
+/*#content{
   padding:0;
   margin-left:5%;
   margin-right:5%;
   min-height: 2000px;
-}
+}*/
 
 #header{
   height: auto;
@@ -17,7 +17,6 @@ body{
 
 .gridster ul{
   list-style-type: none;
-  margin-left:7%;
 }
 
 .gridster ul li{
@@ -26,12 +25,4 @@ body{
 
 .gridster ul li:hover{
   background-color:#E6E6E6;
-}
-
-#cover{
-  top:0;
-  left:0;
-  z-index:5;
-  width:100%;
-  height:100%;
 }

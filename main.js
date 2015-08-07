@@ -15,7 +15,19 @@ $(function(){ //DOM Ready
         }
     });
 
-    // $(".gridster ul").data('gridster').resize_widget($("#verseofday"),i,1);
+    //grid.resize_widget($("#verseofday"),2,1);
+    function pad(number) {
+      var result = String(number);
+      if ( result.length === 1 ) {
+        result = '0' + result;
+      }
+      return result;
+    }
+
+    var today = new Date();
+    var todayDate = today.getFullYear() + '-' + pad( today.getMonth() + 1 ) + '-' + pad( today.getDate() );
+
+    document.getElementById('verseofday').src = 'https://biblia.com/verseoftheday/image/' + todayDate + '?width=700';
 
 
 
