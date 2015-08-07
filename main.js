@@ -15,6 +15,7 @@ $(function(){ //DOM Ready
         }
     });
 
+
     //grid.resize_widget($("#verseofday"),2,1);
     function pad(number) {
       var result = String(number);
