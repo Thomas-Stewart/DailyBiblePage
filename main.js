@@ -30,6 +30,4 @@ $(function(){ //DOM Ready
     document.getElementById('verseofday').src = 'https://biblia.com/verseoftheday/image/' + todayDate + '?width=700';
 
 
-
-
 });
