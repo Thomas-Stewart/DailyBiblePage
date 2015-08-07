@@ -7,7 +7,6 @@ body{
   margin-left:5%;
   margin-right:5%;
   min-height: 2000px;
-  background-color:#B57651;
 }
 
 #header{
@@ -22,9 +21,11 @@ body{
 }
 
 .gridster ul li{
-  border: 1px solid black;
-  background-color:#773716;
   text-align: center;
+}
+
+.gridster ul li:hover{
+  background-color:#E6E6E6;
 }
 
 #cover{

@@ -15,7 +15,9 @@ $(function(){ //DOM Ready
         }
     });
 
-    
+    // $(".gridster ul").data('gridster').resize_widget($("#verseofday"),i,1);
+
+
 
 
 });
