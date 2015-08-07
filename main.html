@@ -1,17 +1,20 @@
 <!doctype html>
 <html>
   <head>
-
     <script src="jquery-1.11.3.min.js"></script>
     <script src="jquery.gridster.js"></script>
     <script src="main.js"></script>
 
     <script src="rssfeed.js"></script>
     <script src="logos.biblia.js"></script>
+    <script src="logos.biblia.start.js"></script>
+
+    <script src="jquery.twitter.feed.js"></script>
+    <script src="logostwitter.js"></script>
 
     <link rel="stylesheet" type="text/css" href="gridster.css">
     <link rel="stylesheet" type="text/css" href="main.css">
-
+    <link rel="stylesheet" type="text/css" href="twitter.css">
   </head>
   <body>
     <div id='content'>
@@ -61,12 +64,14 @@
               <li data-row="4" data-col="3" data-sizex="1" data-sizey="2"><bible layout="normal" resource="esv" width="300" height="600" startingReference="Ge1.1"></bible></li>
               <li data-row="5" data-col="1" data-sizex="1" data-sizey="1"><biblesearchresults resource="esv" style="light" size="small" width="300" height="200"></biblesearchresults></li>
 
-
+              <!--Twitter Plugins-->
+              <li data-row="1" data-col="3" data-sizex="1" data-sizey="2"><a class="twitter-timeline" href="https://twitter.com/Logos" data-widget-id="629491476985020416">Tweets by @Logos</a></li>
+              <li data-row="3" data-col="3" data-sizex="1" data-sizey="2"><a class="twitter-timeline" href="https://twitter.com/Faithlife" data-widget-id="629491677401448448">Tweets by @Faithlife</a></li>
+              <li data-row="5" data-col="3" data-sizex="1" data-sizey="2"><a class="twitter-timeline" href="https://twitter.com/BibleStudyMag" data-widget-id="629488597423423488">Tweets by @BibleStudyMag</a></li>
           </ul>
         </div>
     </div>
     <!--<a href="http://feed.mikle.com/" target="_blank" style="color:#CCCCCC;">RSS Feed Widget</a>-->
-    <script src="logos.biblia.start.js"></script>
   </body>
 
 </html>
