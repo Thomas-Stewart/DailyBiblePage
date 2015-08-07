@@ -3,6 +3,15 @@ $(function(){ //DOM Ready
     var grid = $(".gridster ul").gridster({
         widget_margins: [10, 10],
         widget_base_dimensions: [350, 400],
+        serialize_params: function($w, wgd) {
+            return {
+                   id: $($w).attr('id'),
+                   col: wgd.col,
+                   row: wgd.row,
+                   size_x: wgd.size_x,
+                   size_y: wgd.size_y
+            };
+        },
         draggable: {
           start: function(){
             console.log('starting to drag');
