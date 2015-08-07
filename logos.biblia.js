@@ -1,5 +1,5 @@
 (function(win, doc) {
-	var pluginRootUrl = 'http://biblia.com/api/plugins/',
+	var pluginRootUrl = 'https://biblia.com/api/plugins/',
 		parametersToIgnoreGlobally = ['resource', 'id'],
 		pluginInfos = {
 			'verseoftheday': { path: 'verseoftheday/{0}' },

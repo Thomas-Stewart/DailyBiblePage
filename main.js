@@ -6,9 +6,11 @@ $(function(){ //DOM Ready
         draggable: {
           start: function(){
             console.log('starting to drag');
+            document.getElementById("cover").style.pointerEvents = "none";
           },
           stop: function(){
             console.log('stopping drag');
+            document.getElementById("cover").style.pointerEvents = "all";
           }
         }
     });
