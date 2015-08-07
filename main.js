@@ -11,7 +11,9 @@ $(function(){ //DOM Ready
           stop: function(){
             console.log('stopping drag');
             document.getElementById("cover").style.pointerEvents = "all";
-          }
+            gridData = grid.serialize();
+            console.log('SAVING GRID',gridData);
+            chrome.storage.local.set({'layout': gridData});          }
         }
     });
 
