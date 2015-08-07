@@ -1,11 +1,10 @@
 $(function(){ //DOM Ready
 
-
   chrome.storage.local.get('layout', function (result) {
       console.log(result);
       layout = result['layout'];
       console.log('layout',layout);
-      if (layout != '') {
+      if (layout) {
         var json = jQuery.parseJSON(layout);
         console.log('json',json);
         for (i = 0; i < json.length; i++) {
