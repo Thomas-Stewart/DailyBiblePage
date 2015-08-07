@@ -13,7 +13,6 @@ $(function(){ //DOM Ready
             $('#' + item.id).attr('data-row', item.row).attr('data-col', item.col);
         }
       }
-  });
 
 
     var grid = $(".gridster ul").gridster({
@@ -58,5 +57,6 @@ $(function(){ //DOM Ready
 
     document.getElementById('verseofday').src = 'https://biblia.com/verseoftheday/image/' + todayDate + '?width=700';
 
+  });
 
 });
