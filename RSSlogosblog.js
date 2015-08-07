@@ -1,1 +1,1 @@
-getFeed("http://feeds.feedburner.com/LogosBibleSoftwareBlog");
+getFeed("http://feeds.feedburner.com/LogosBibleSoftwareBlog", "http://blog.logos.com");

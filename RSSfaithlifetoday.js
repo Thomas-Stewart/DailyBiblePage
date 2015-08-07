@@ -1,1 +1,1 @@
-getFeed("http://faithlife-today.marketing.logos.com/feed/");
+getBlog("http://faithlife-today.marketing.logos.com/feed/");
